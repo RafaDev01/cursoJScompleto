@@ -18,3 +18,4 @@ const objC = {
 Object.setPrototypeOf(objB, objA)
 Object.setPrototypeOf(objC, objB)
 console.log(objB.chaveA)
+
