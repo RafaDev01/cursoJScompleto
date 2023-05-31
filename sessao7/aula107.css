@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33, 33, 146);
+}
+
+form hgroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.error-text{
+    font-size: 12px;
+    color: red;
+}

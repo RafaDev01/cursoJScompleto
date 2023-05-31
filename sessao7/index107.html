@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula107.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Formulario de cadastro</h2>
+        <ul>
+            <li>Nenhum campo deve estar vazio</li>
+            <li>Usuário so pode conter letras e/ou numeros</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+    </div>
+    <form id="meuFormulario" action="/" method="POST">
+            <label for="nome">Nome:</label>
+            <input id="nome" class="input" type="text" id="nome" name="nome">
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input id="sobrenome" class="input" type="text" id="sobrenome" name="sobrenome">
+
+            <label for="cpf">CPF:</label>
+            <input id="cpf" class="input cpf" type="text" id="cpf" name="cpf">
+
+            <label for="usuario">Usuário:</label>
+            <input id="usuario" class="input usuario" type="text" id="usuario" name="usuario">
+
+            <label for="senha">Senha:</label>
+            <input id="senha" class="input" type="text" id="senha" name="senha">
+
+            <label for="rsenha">Repetir senha:</label>
+            <input id="rsenha" class="input" type="text" id="rsenha" name="rsenha">  
+            <button type="submit" id="enviar">Enviar</button>
+    </form>
+    <script src="aula106re.js"></script>
+    <script src="aula107re.js"></script>
+</body>
+</html>
